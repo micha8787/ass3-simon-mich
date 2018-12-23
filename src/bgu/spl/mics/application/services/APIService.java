@@ -11,11 +11,12 @@ import bgu.spl.mics.MicroService;
  * You can add private fields and public methods to this class.
  * You MAY change constructor signatures and even add new public constructors.
  */
-public class APIService extends MicroService{
+public class APIIService extends MicroService{
 
-	public APIService() {
 		super("Change_This_Name");
-		// TODO Implement this
+		int i = 3;
+		int x= 2
+		int j = x + i;
 	}
 
 	@Override
